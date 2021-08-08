@@ -1,2 +1,2 @@
 # meli-mutants
-this app lets to know if a human is a mutant so importante
+this app lets to know if a human is a mutant

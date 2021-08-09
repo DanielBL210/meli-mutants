@@ -17,7 +17,7 @@ A continuacion se listan las URLs de los servicios expuestos
 
 Se pueden consumir utilizando una herramienta como Postman.
 
-## Documentacion
+## Swagger UI
 
 Para conocer mejor como esta implementados estos servicios se pueden dirigir
 al swagger expuesto en la siguiente URL.  

@@ -20,7 +20,7 @@ Se pueden consumir utilizando una herramienta como Postman.
 ## Documentacion
 
 Para conocer mejor como esta implementados estos servicios se pueden dirigir
-al swagger expuesto en la siguiente ULR.  
+al swagger expuesto en la siguiente URL.  
 
 http://melimutantsapp-env.eba-uxtpmamb.us-east-2.elasticbeanstalk.com/swagger-ui-mutants.html
 

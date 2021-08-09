@@ -32,6 +32,12 @@ public class MutantsContoller {
         this.mutantsService = mutantsService;
     }
 
+    /**
+     * Servicio que verifica si un humono es mutante o no
+     *
+     * @param dto que contiene el adn a verificar
+     * @return HttpStatus 200 si es mutante, 403 si NO es mutante
+     */
     @PostMapping("/mutant")
     public ResponseEntity isMutant(@RequestBody MutantDto dto) {
         boolean isMutant = mutantsService.analyzeAdn(dto.getDna());
@@ -43,6 +49,14 @@ public class MutantsContoller {
 
     }
 
+    /**
+     * Servicio que devuelve las estadisticas de las verificaciones de adn
+     *
+     * @return ResponseEntity, con el dto que contiene:
+     * - count_human_dna, el numero total de verificaciones
+     * - count_mutant_dna, el numero de mutantes encontrados
+     * - ratio, proporcion de mutantes con realcion al total de verificaciones
+     */
     @GetMapping("/stats")
     public ResponseEntity stats() {
         StatsDto dto = mutantsService.stats();

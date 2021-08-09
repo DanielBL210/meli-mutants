@@ -2,6 +2,12 @@ package co.com.mercadolibre.mutants.model;
 
 import javax.persistence.*;
 
+/**
+ * Esta clase define la entidad para guardar y consultas las verificaciones de adn
+ *
+ * @author Daniel Botero
+ * @version 08/08/2021
+ */
 @Entity
 @Table(name = "mutants")
 public class MutantModel {

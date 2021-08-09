@@ -1,5 +1,11 @@
 package co.com.mercadolibre.mutants.dto;
 
+/**
+ * Esta clase define el objeto de las estadisticas de las verificaciones
+ *
+ * @author Daniel Botero
+ * @version 08/08/2021
+ */
 public class StatsDto {
     int count_mutant_dna;
     int count_human_dna;

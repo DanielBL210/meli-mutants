@@ -38,6 +38,9 @@ public class MutantServiceTests {
         String[] dna6 = {"ATACGA", "CAAAAC", "ATATTT", "TGACGG", "ACTCCA", "TCACTG"};
         Assertions.assertEquals(mutantsService.analyzeAdn(dna6), true);
 
+        String[] dna7 = {"ATGCGA", "CAAAAC", "ATATTT", "AGACGG", "ACACCA", "TCACTG"};
+        Assertions.assertEquals(mutantsService.analyzeAdn(dna7), true);
+
     }
 
     @Test

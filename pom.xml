@@ -12,7 +12,8 @@
 	<artifactId>mutants</artifactId>
 	<version>1.0</version>
 	<name>mutants</name>
-	<description>this app lets to know if a human is a mutant</description>
+	<description>meli-mutants es una aplicacion que permite analizar ADN de humanos
+		y ofrece estadisticas sobre los resultados a traves de los siguientes servicio</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
